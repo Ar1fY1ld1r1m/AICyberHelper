@@ -1,0 +1,13 @@
+.landing-button {
+    background-color: #ffffff;
+    color: black;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px smoke; 
+    height: 40px;
+    width: 100px;
+}
+
+.landing-button:hover {
+  background-color: #dddddd;
+}
