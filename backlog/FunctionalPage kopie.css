@@ -1,0 +1,45 @@
+.functional-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.functional-page h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.functional-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.functional-page li {
+  margin: 1rem 0;
+}
+
+.functional-page a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.functional-page a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .functional-page a {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+}

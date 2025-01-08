@@ -1,0 +1,33 @@
+.general-information-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: black;
+    background-color: #f9f9f9;
+    height: 100vh;
+  }
+  
+  .general-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .general-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .general-content {
+    padding: 20px;
+  }
+  
+  .general-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    font-size: 1em;
+    color: #777;
+  }
+  
